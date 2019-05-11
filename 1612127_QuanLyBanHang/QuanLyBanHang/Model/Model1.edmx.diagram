@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85f7df19c7ab4972a2f42cac2cbf1e77" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Bill" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.BillInfo" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Customer" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Import" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.ImportInfo" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Object" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Suplier" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.sysdiagram" Width="1.5" PointX="10.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.Unit" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.UserRole" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanHangModel.User" Width="1.5" PointX="8" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK_Bill_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK_BillInfo_Bill" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.fk_BillInfo_ImportInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK_BillInfo_Objects" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.fk_ImportInfo_Import" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.fk_ImportInfo_Objects" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK__Objects__IdSupli__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK__Objects__RetailP__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanHangModel.FK__Users__IdRole__1DE57479" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

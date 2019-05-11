@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:QuanLyBanHang.ResourceXAML"
+                    xmlns:viewmodel="clr-namespace:QuanLyBanHang.ViewModel">
+    <viewmodel:MainViewModel x:Key="MainVM"></viewmodel:MainViewModel>
+    <viewmodel:LoginViewModel x:Key="LoginVM"></viewmodel:LoginViewModel>
+    <viewmodel:UnitViewModel x:Key="UnitVM"></viewmodel:UnitViewModel>
+    <viewmodel:SuplierViewModel x:Key="SuplierVM"></viewmodel:SuplierViewModel>
+    <viewmodel:CustomerViewModel x:Key="CustomerVM"></viewmodel:CustomerViewModel>
+    <viewmodel:UserViewModel x:Key="UserVM"></viewmodel:UserViewModel>
+    <viewmodel:ProductViewModel x:Key="ProductVM"></viewmodel:ProductViewModel>
+    <viewmodel:ImportViewModel x:Key="ImportVM"></viewmodel:ImportViewModel>
+    <viewmodel:BillViewModel x:Key="BillVM"></viewmodel:BillViewModel>
+    <viewmodel:WarehouseViewModel x:Key="WarehouseVM"></viewmodel:WarehouseViewModel>
+    <viewmodel:StatisticalViewModel x:Key="StatisticalVM"></viewmodel:StatisticalViewModel>
+    <viewmodel:ViewBillViewModel x:Key="ViewBillVM"></viewmodel:ViewBillViewModel>
+</ResourceDictionary>
